@@ -3,14 +3,14 @@ import img from "./assets/pexels-yankrukov-8613089.jpg"
 import img1 from "./assets/pexels-cottonbro-4098215.jpg"
 import img3 from "./assets/pexels-fauxels-3184328.jpg"
 import img4 from "./assets/pexels-wdnet-5921677.jpg"
-import img5 from "./assets/pexels-maltelu-5310566.jpg"
+import img5 from "./assets/Screenshot 2024-08-01 004026.png"
 
 const FeaturedSection = () => {
   return (
-    <section className="bg-white py-40">
+    <section className=" py-40">
       <div className="container mx-auto px-0">
         <h2 className="text-3xl font-bold mb-4">Looking for a solution to enhance your teaching?</h2>
-        <div className="flex flex-wrap -mx-[110px] mb-8">
+        <div className="flex flex-wrap  mb-8">
           <div className="w-full md:w-1/2  md:px-4 mb-4 md:mb-0">
             <div className="relative h-96 overflow-hidden rounded-lg">
               <img
@@ -85,7 +85,7 @@ const FeaturedSection = () => {
           </div>
         </div>
         <div className="text-right mt-8">
-          <a href="/explore" className="text-red-500 hover:text-red-700 font-bold">Explore All Articles &rarr;</a>
+          <a href="/explore" className="text-pink-700 hover:text-pink-700 font-bold">Explore All Articles &rarr;</a>
         </div>
       </div>
     </section>

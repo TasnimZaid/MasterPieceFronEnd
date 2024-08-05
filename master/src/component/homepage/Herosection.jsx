@@ -6,9 +6,9 @@ function Herosection() {
   const videoUrl = "https://science.nasa.gov/wp-content/uploads/2023/06/astro-homepage-loop-v12.mp4";
 
   return (
-    <div className="h-screen sm:h-screen xl:h-screen 2xl:h-screen flex items-center justify-center pt-[70px] mx-10">
+    <div className="h-screen sm:h-screen xl:h-screen 2xl:h-screen">
       {/* Container with border and margin */}
-      <div className="relative w-full h-full rounded-t-lg overflow-hidden  ">
+      <div className="relative w-full h-full rounded-t-lg overflow-hidden">
         {/* Video */}
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
@@ -28,47 +28,53 @@ function Herosection() {
           {[1, 2, 3].map((_, index) => (
             <div key={index} className="relative w-full h-full flex items-center justify-center">
               {/* Content for each slide */}
-              <div className="max-w-md text-center text-white z-20">
+              <div className="max-w-lg w-full px-4 text-left text-white z-20">
                 {index === 0 && (
                   <>
-                    <h1 className="text-5xl font-bold mb-4">Discover the World of Technology</h1>
+                    <h1 className="text-5xl font-bold mb-4">Empower Educators with Resources</h1>
                     <p className="text-lg mb-6">
-                      Explore our latest innovations and stay ahead of the curve with our cutting-edge solutions.
+                      Access a wealth of resources and tools designed to support educators in their teaching journey.
                     </p>
-                    <a href="#learn-more" className="bg-blue-900 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded mr-4">
-                      Learn More
-                    </a>
-                    <a href="#contact-us" className="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
-                      Contact Us
-                    </a>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                      <a href="#resources" className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
+                        Explore Resources
+                      </a>
+                      <a href="#consultants" className="bg-white hover:bg-gray-200 text-pink-600 font-bold py-2 px-4 rounded border border-pink-600">
+                        Meet Consultants
+                      </a>
+                    </div>
                   </>
                 )}
                 {index === 1 && (
                   <>
-                    <h1 className="text-5xl font-bold mb-4">Innovate with the World</h1>
+                    <h1 className="text-5xl font-bold mb-4">Join Our Teaching Community</h1>
                     <p className="text-lg mb-6">
-                      Join our global community of forward-thinkers and be a part of transformative projects.
+                      Connect with fellow educators, share insights, and enhance your teaching skills through our community.
                     </p>
-                    <a href="#about-us" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4">
-                      About Us
-                    </a>
-                    <a href="#services" className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
-                      Our Services
-                    </a>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                      <a href="#community" className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
+                        Join the Community
+                      </a>
+                      <a href="#earn" className="bg-white hover:bg-gray-200 text-pink-600 font-bold py-2 px-4 rounded border border-pink-600">
+                        Earn with Us
+                      </a>
+                    </div>
                   </>
                 )}
                 {index === 2 && (
                   <>
-                    <h1 className="text-5xl font-bold mb-4">Stay Ahead of the World</h1>
+                    <h1 className="text-5xl font-bold mb-4">Engage in Educational Activities</h1>
                     <p className="text-lg mb-6">
-                      Get insights and updates on the latest global trends in technology and innovation.
+                      Discover a range of activities designed to enrich the learning experience and engage your students.
                     </p>
-                    <a href="#subscribe" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4">
-                      Subscribe
-                    </a>
-                    <a href="#explore" className="bg-pink-900 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
-                      Explore
-                    </a>
+                    <div className="flex flex-col sm:flex-row gap-4">
+                      <a href="#activities" className="bg-pink-600 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded">
+                        View Activities
+                      </a>
+                      <a href="#contact" className="bg-white hover:bg-gray-200 text-pink-600 font-bold py-2 px-4 rounded border border-pink-600">
+                        Contact Us
+                      </a>
+                    </div>
                   </>
                 )}
               </div>

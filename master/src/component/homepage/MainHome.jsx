@@ -12,7 +12,7 @@ import BlogLayout from "../blog/BlogHero";
 function MainHome(){
     return(
         <>
-        <div className=" ">
+        <div className="bg-gray-200 ">
         
         <Herosection />
         <ExploreSection/>
@@ -20,8 +20,6 @@ function MainHome(){
         <FeaturedSection/>
         <RegisterSection/>
         <TeacherResources/>
-        <BlogLayout/>
-        <FeaturedStory/>
         </div>
 
         </>

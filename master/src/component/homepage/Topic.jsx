@@ -5,25 +5,25 @@ const topics = [
   
   {
     title: 'Teacher Resources',
-    image: '/src/homepage/assets/pexels-kampus-5940831.jpg',
+    image: '/src/component/homepage/assets/pexels-kampus-5940831.jpg',
     description: 'Access a variety of resources specifically for teachers.',
     link: '#'
   },
   {
     title: 'Locate Schools in Jordan',
-    image: '/src/homepage/assets/Screenshot 2024-08-01 004026.png',
+    image: '/src/component/homepage/assets/Screenshot 2024-08-01 004026.png',
     description: 'Find schools across Jordan for networking and opportunities.',
     link: '#'
   },
   {
     title: 'Job Seeker Tips',
-    image: '/src/homepage/assets/pexels-resumegenius-18848927.jpg',
+    image: '/src/component/homepage/assets/pexels-resumegenius-18848927.jpg',
     description: 'Get tips and advice for teachers seeking new job opportunities.',
     link: '#'
   },
   {
     title: 'Interview Questions',
-    image: '/src/homepage/assets/pexels-polina-zimmerman-3746957.jpg',
+    image: '/src/component/homepage/assets/pexels-polina-zimmerman-3746957.jpg',
     description: 'Prepare for interviews with common questions and best practices.',
     link: '#'
   }

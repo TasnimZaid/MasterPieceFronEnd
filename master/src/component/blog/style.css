@@ -1,0 +1,27 @@
+/* styles.css */
+
+.teacher-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .teacher-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  input, select {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  input:focus, select:focus {
+    transform: scale(1.02);
+  }
+  
+  button {
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  

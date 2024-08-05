@@ -1,12 +1,13 @@
 import React from 'react';
+import img from "./assets/pexels-julia-m-cameron-4144101.jpg"
 
 
 const BlogLayout = () => {
   return (
-    <div className="container mx-auto  py-8 flex">
+    <div className="container mx-auto  py-8 flex mt-20 ">
       <main className="w-screen pr-12">
         <article className="bg-white rounded-lg shadow-lg overflow-hidden">
-          <img src="/path-to-image.jpg" alt="Educational concept" className="w-full h-64 object-cover" />
+          <img src={img} alt="Educational concept" className="w-full h-64 object-cover" />
           <div className="p-6">
             <span className="bg-pink-500 text-white text-xs font-semibold px-2 py-1 rounded-full">Inspiration</span>
             <h2 className="text-3xl font-bold mt-2 mb-4">5 Easy Ways You Can Improve Student Engagement</h2>
